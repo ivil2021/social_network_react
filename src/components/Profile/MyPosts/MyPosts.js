@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './MyPosts.module.css';
+import Post from './Post/Post';
 
 const MyPosts = () => {
     return (
@@ -11,22 +12,11 @@ const MyPosts = () => {
                 <button>Remove</button>
             </div>
             <div className={s.posts}>
-                <div className={s.item}>
-                    <img src="https://avavatar.ru/images/original/3/Fv6wxCwR1IecjOBZ.jpg" />
-                    Post 1
-                </div>
-            </div>
-            <div>
-                <div className={s.item}>Post 2</div>
-            </div>
-            <div>
-                <div className={s.item}>Post 3</div>
-            </div>
-            <div>
-                <div className={s.item}>Post 4</div>
-            </div>
-            <div>
-                <div className={s.item}>Post 5</div>
+                <Post />
+                <Post />
+                <Post />
+                <Post />
+                <Post />
             </div>
         </div>
     );

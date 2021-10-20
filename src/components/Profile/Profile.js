@@ -6,7 +6,10 @@ const Profile = () => {
     return (
         <div className={s.content}>
             <div>
-                <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701313431.jpg" />
+                <img
+                    alt="something went wrong"
+                    src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701313431.jpg"
+                />
             </div>
             <div>ava + description</div>
             <MyPosts />
