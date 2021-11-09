@@ -6,8 +6,8 @@ const MyPosts = () => {
     let posts = [
         { id: 1, message: 'how arvgdgddhe you', like: 172 },
         { id: 2, message: 'it is my first project', like: 125 },
-        { id: 2, message: 'blabla', like: 236 },
-        { id: 2, message: 'dada', like: 12789 },
+        { id: 3, message: 'blabla', like: 236 },
+        { id: 4, message: 'dada', like: 12789 },
     ];
 
     let postsElements = posts.map((post) => (
