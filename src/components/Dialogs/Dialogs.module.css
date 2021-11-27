@@ -14,8 +14,17 @@
 
 .messages {
     padding: 10px;
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .messages .message {
     color: white;
+}
+
+.dialogsItems img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
